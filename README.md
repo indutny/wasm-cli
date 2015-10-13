@@ -1,5 +1,13 @@
 # WebAssembly JIT Compiler CLI
 
+## Usage
+
+```shell
+$ npm install -g wasm-cli
+$ echo 'void main() {} export main' > empty.wasm
+$ wasm empty.wasm
+```
+
 ## LICENSE
 
 This software is licensed under the MIT License.
