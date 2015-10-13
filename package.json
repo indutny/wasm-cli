@@ -1,0 +1,32 @@
+{
+  "name": "wasm-cli",
+  "version": "1.0.0",
+  "description": "a CLI interface for wasm JIT compiler",
+  "main": "index.js",
+  "bin": {
+    "wasm": "./bin/wasm"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/indutny/wasm-cli.git"
+  },
+  "keywords": [
+    "wasm",
+    "jit",
+    "sea-of-nodes",
+    "cli"
+  ],
+  "author": "Fedor Indutny <fedor@indutny.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/indutny/wasm-cli/issues"
+  },
+  "homepage": "https://github.com/indutny/wasm-cli#readme",
+  "dependencies": {
+    "wasm-jit": "^1.0.0",
+    "yargs": "^3.27.0"
+  }
+}
